@@ -21,7 +21,7 @@ function Homepage() {
         <img src={myPhoto} alt="my photo" className={styles.image} />
       </div>
       <div className={styles.buttonContainer}>
-        <a>
+        <a href="#about">
           <button className={styles.button}>
             About Me
             <span className={styles.motion}></span>
