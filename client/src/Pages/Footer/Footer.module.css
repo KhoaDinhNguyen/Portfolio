@@ -1,0 +1,51 @@
+.rootContainer {
+  background: #0d1e31;
+  padding: 50px 0px;
+}
+
+.svgContainer {
+  padding: 10px;
+  width: max-content;
+  transition-duration: 200ms;
+  transform: translateY(-64px);
+  cursor: pointer;
+}
+
+.logoContainer {
+  background-color: #2e2c36;
+  width: max-content;
+  height: 64px;
+  overflow: hidden;
+  transition-duration: 500ms;
+}
+
+.logoContainer:hover {
+  background-color: #3dccc7;
+}
+.logoContainer:hover .svgContainer {
+  transform: translateY(0) scale(0.8);
+}
+
+.logosContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer:nth-child(1) {
+  margin-right: 50px;
+}
+
+.idTextContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.idText {
+  color: #adb5bd;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.idText span {
+  color: #8c1d40;
+}
