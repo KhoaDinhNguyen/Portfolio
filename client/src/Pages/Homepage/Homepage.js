@@ -4,7 +4,7 @@ import myPhoto from "../../asset/myPhoto.jpg";
 
 function Homepage() {
   return (
-    <div className={styles.rootContainer}>
+    <div className={styles.rootContainer} id="home">
       <NightStar />
       <div className={styles.codeTextContainer}>
         <p className={styles.codeText}>

@@ -1,0 +1,186 @@
+.rootContainer {
+  background-color: #212529;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleContainer {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 60px;
+  color: white;
+  position: relative;
+}
+
+.animationStart .title {
+  animation-name: move-in-from-left;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+}
+
+.titleUnderline {
+  position: absolute;
+  width: 50%;
+  height: 5px;
+  background-color: white;
+  top: 120%;
+  transform: translateX(-55%);
+  right: 0%;
+}
+
+.animationStart .titleUnderline {
+  animation-name: move-in-from-right;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes move-in-from-left {
+  from {
+    opacity: 0;
+    left: -150%;
+  }
+  to {
+    opacity: 1;
+    left: 0%;
+  }
+}
+
+@keyframes move-in-from-right {
+  from {
+    opacity: 0;
+    right: -200%;
+  }
+  to {
+    opacity: 1;
+    right: 0%;
+  }
+}
+
+.prompt {
+  color: #3dccc7;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  right: 0%;
+}
+
+.animationStart .prompt {
+  animation-name: move-in-from-right;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+.formContainer {
+  margin-top: 50px;
+  width: max-content;
+  position: relative;
+}
+
+@keyframes move-in-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    bottom: 0%;
+  }
+}
+
+.animationStart .formContainer {
+  animation-name: move-in-from-bottom;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+}
+
+.input {
+  background-color: black;
+  outline: 0;
+  border: 2px solid transparent;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  width: 500px;
+}
+
+.input:focus {
+  border: 2px solid orange;
+}
+
+.textArea {
+  background-color: black;
+  color: white;
+  outline: 0;
+  border: 2px solid transparent;
+  resize: none;
+  width: 500px;
+  padding: 10px;
+  height: 200px;
+  overflow: auto;
+  font-size: 18px;
+}
+
+.textArea:focus {
+  border: 2px solid orange;
+}
+
+.submitInput {
+  display: none;
+}
+
+.submitLabel {
+  cursor: pointer;
+  border: 1px solid white;
+  width: max-content;
+  display: inline-block;
+  padding: 10px 30px;
+  position: relative;
+}
+
+.submitLabel::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  transition-duration: 500ms;
+}
+
+.submitLabel:hover::before {
+  width: 100%;
+}
+
+.labelText {
+  color: white;
+  position: relative;
+  z-index: 2;
+  transition-duration: 500ms;
+}
+
+.submitLabel:hover .labelText {
+  color: black;
+}
+
+.submitContainer {
+  justify-self: flex-end;
+}
+
+.moveToTop {
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: #e31b6d;
+  padding: 10px;
+}
