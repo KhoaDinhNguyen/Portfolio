@@ -18,7 +18,7 @@ function Homepage() {
         <p className={styles.occupation}>
           Full-Stack Developer, UI-Engineer, & Designer
         </p>
-        <img src={myPhoto} alt="my photo" className={styles.image} />
+        <img src={myPhoto} alt="myself" className={styles.image} />
       </div>
       <div className={styles.buttonContainer}>
         <a href="#about">

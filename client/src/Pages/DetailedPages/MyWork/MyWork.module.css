@@ -1,0 +1,90 @@
+.rootContainer {
+  min-height: 100vh;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectContainer {
+  width: max-content;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.projectDetailContainer {
+  background-color: #212529;
+  padding: 20px 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.imageContainer {
+  overflow: hidden;
+  width: 400px;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.image {
+  width: 400px;
+  transition-duration: 500ms;
+}
+
+.projectContainer:hover .image {
+  scale: 1.1;
+}
+
+.projectName {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.skillListContainer {
+  position: relative;
+  height: 25px;
+  overflow: hidden;
+}
+
+.skillListTextContainer {
+  color: #adb5bd;
+  position: absolute;
+  transition-duration: 300ms;
+}
+
+.projectContainer:hover .skillListTextContainer {
+  transform: translateY(-50%);
+}
+
+.title {
+  color: #ffc627;
+  font-size: 70px;
+  max-width: 100px;
+}
+
+.text {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  max-width: 500px;
+  word-spacing: 7px;
+  font-weight: 300;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.video {
+  height: 600px;
+}
+
+.headerTitleContainer {
+  margin-right: 100px;
+}

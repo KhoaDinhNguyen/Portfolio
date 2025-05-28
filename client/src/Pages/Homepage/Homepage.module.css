@@ -147,7 +147,7 @@
 
 .codeTextContainer {
   position: absolute;
-  top: 0%;
+  top: 5%;
 }
 .codeText {
   font-size: 40px;
@@ -177,13 +177,13 @@
 }
 
 .occupation {
-  margin-top: -50px;
   color: white;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 500;
   position: relative;
   animation: move-in 2s linear;
+  margin-bottom: 20px;
 }
 
 @keyframes move-in {
