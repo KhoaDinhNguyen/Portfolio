@@ -1,6 +1,7 @@
 import styles from "./Homepage.module.css";
 
 import myPhoto from "../../asset/myPhoto.jpg";
+import { GitHubSVG2, LinkedInSVG } from "../../SVG/svg";
 
 function Homepage() {
   return (
@@ -30,6 +31,29 @@ function Homepage() {
             <span className={styles.motion}></span>
           </button>
         </a>
+      </div>
+      <div className={styles.contactMeContainer}>
+        <div>
+          <p className={styles.contactMe}>Contact Me</p>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/khoanguyenb203702b5"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInSVG />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://github.com/KhoaDinhNguyen"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubSVG2 />
+          </a>
+        </div>
       </div>
     </div>
   );
