@@ -9,7 +9,7 @@
 
 .titleContainer {
   position: absolute;
-  top: 0%;
+  top: 100px;
 }
 
 .contentContainer {
@@ -18,7 +18,7 @@
 
 .title {
   color: #ffc627;
-  font-size: 40px;
+  font-size: 70px;
 }
 
 .image {

@@ -1,6 +1,7 @@
 .rootContainer {
   min-height: 100vh;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .projectsContainer {

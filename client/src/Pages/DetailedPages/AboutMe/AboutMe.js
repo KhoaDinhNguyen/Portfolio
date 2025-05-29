@@ -8,7 +8,6 @@ function AboutMe() {
       <div className={styles.titleContainer}>
         <h3 className={styles.title}>About me</h3>
       </div>
-
       <div className={styles.contentContainer}>
         <div>
           <ul className={styles.aboutMeList}>

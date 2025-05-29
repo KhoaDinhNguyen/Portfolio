@@ -147,7 +147,7 @@
 
 .codeTextContainer {
   position: absolute;
-  top: 5%;
+  top: 100px;
 }
 .codeText {
   font-size: 40px;
@@ -161,7 +161,7 @@
 
 .redText {
   font-weight: 700;
-  color: #8c1d40;
+  color: #e31b6d;
 }
 
 .titleContainer {
