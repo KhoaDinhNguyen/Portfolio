@@ -21,6 +21,9 @@ function Contact() {
     window.addEventListener("scroll", scrollHandler);
   }, [contactRef, setScrollAt]);
 
+  const onSubmitForm = (event) => {
+    event.prevenDefault();
+  };
   return (
     <div
       className={`${styles.rootContainer} ${
@@ -36,7 +39,7 @@ function Contact() {
         <p className={styles.prompt}>Have a question? Feel free!!!</p>
       </div>
       <div className={styles.formContainer}>
-        <form className={styles.form}>
+        <form className={styles.form} onSubmit={onSubmitForm}>
           <div className={styles.inputContainer}>
             <input
               id="name"

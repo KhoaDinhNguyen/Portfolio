@@ -1,6 +1,8 @@
-import styles from "./Expertise.module.css";
-
 import { ReactSVG, MongoDBSVG, UISVG } from "../../../SVG/svg";
+
+import expertise from "../../../asset/img/expertise.png";
+
+import styles from "./Expertise.module.css";
 
 function Expertise() {
   return (
@@ -18,8 +20,8 @@ function Expertise() {
           </div>
           <div className={styles.skillText}>
             <p>
-              Passionate about UI/UX. Experienced in developing HTML, CS, JS,
-              React and Redux
+              Competence in managing frontend states and effects. Experienced in
+              developing HTML, CSS, JS, React, and Redux
             </p>
           </div>
         </div>
@@ -32,8 +34,8 @@ function Expertise() {
           </div>
           <div className={styles.skillText}>
             <p>
-              Skilled in handle REST API request. Developent experience in
-              Express.js, MongoDB, MySQL, and GraphQL
+              Skilled in handling REST API requests. Experienced in Express.js,
+              MongoDB, MySQL, and GraphQL.
             </p>
           </div>
         </div>
@@ -45,9 +47,15 @@ function Expertise() {
             </p>
           </div>
           <div className={styles.skillText}>
-            <p>.. in deploy responsive website.</p>
+            <p>
+              Passionate about UI/UI. Specialized in building dynamic,
+              responsive website applications.
+            </p>
           </div>
         </div>
+      </div>
+      <div className={styles.imageBackgroundContainer}>
+        <img src={expertise} alt="code" className={styles.image} />
       </div>
     </div>
   );

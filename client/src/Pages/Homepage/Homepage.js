@@ -1,6 +1,6 @@
 import styles from "./Homepage.module.css";
 
-import myPhoto from "../../asset/myPhoto.jpg";
+import myPhoto from "../../asset/img/myPhoto.jpg";
 import { GitHubSVG2, LinkedInSVG } from "../../SVG/svg";
 
 function Homepage() {

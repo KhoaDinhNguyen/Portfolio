@@ -23,7 +23,11 @@
 }
 
 .image {
-  width: 500px;
+  width: 550px;
+}
+
+.aboutMeList {
+  margin-right: 100px;
 }
 
 .aboutMeList li {
@@ -31,4 +35,29 @@
   font-size: 20px;
   font-weight: 300;
   max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.aboutMeList li:nth-child(1) {
+  list-style-type: "\1F4BB";
+}
+
+.aboutMeList li:nth-child(2) {
+  list-style-type: "\1F4F1";
+}
+
+.aboutMeList li:nth-child(3) {
+  list-style-type: "\1F481";
+}
+
+.aboutMeList li:nth-child(4) {
+  list-style-type: "\1F9D3";
+}
+
+.aboutMeList li:nth-child(5) {
+  list-style-type: "\1F4AA";
+}
+
+.aboutMeList li:nth-child(6) {
+  list-style-type: "\1F3AF";
 }

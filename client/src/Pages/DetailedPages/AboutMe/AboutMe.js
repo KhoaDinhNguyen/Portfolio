@@ -1,6 +1,6 @@
 import styles from "./AboutMe.module.css";
 
-import myPhoto2 from "../../../asset/myPhoto2.jpg";
+import myPhoto2 from "../../../asset/img/myPhoto2.jpg";
 
 function AboutMe() {
   return (
@@ -13,24 +13,34 @@ function AboutMe() {
           <ul className={styles.aboutMeList}>
             <li>
               <p>
-                I'm Computer Science student and currently a junior at Arionza
+                I'm a Computer Science student and currently a junior at Arizona
                 State University
               </p>
             </li>
             <li>
               <p>
-                I have more than one year experience in doing full-stack
-                projects
+                I have over a year of experience in developing full-stack
+                projects and am passionate about learning new technologies
               </p>
-            </li>
-            <li>
-              <p>I'm passionate about learning new things ....</p>
             </li>
             <li>
               <p>
-                I love collaborate with my friends and teachers to achieve
-                goals.
+                I enjoy collaborating with my peers and teachers to achieve our
+                goals
               </p>
+            </li>
+            <li>
+              <p>
+                I used to work in the public community for five years, working
+                to protect the environment, help people, and build connections
+              </p>
+            </li>
+            <li>
+              <p>My motivation is to be better than I was yesterday</p>
+            </li>
+            <li>
+              My goal is to create a social product that addresses the problems
+              faced by others
             </li>
           </ul>
         </div>
