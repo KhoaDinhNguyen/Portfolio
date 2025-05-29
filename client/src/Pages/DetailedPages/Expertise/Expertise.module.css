@@ -5,8 +5,12 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  z-index: 2;
 }
 
+.rootContainer * {
+  z-index: 2;
+}
 .title {
   color: #ffc627;
   font-size: 70px;
