@@ -7,7 +7,7 @@ import styles from "./Expertise.module.css";
 function Expertise() {
   return (
     <div className={styles.rootContainer}>
-      <div>
+      <div className={styles.titleContainer}>
         <h3 className={styles.title}>My Expertise</h3>
       </div>
       <div className={styles.skillsContainer}>

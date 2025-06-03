@@ -4,15 +4,11 @@ import MyWork from "./MyWork/MyWork";
 import Contact from "./Contact/Contact";
 
 import styles from "./DetailedPages.module.css";
-import NavigationBar from "./NavigationBar/NavigationBar";
 
 function DetailPages() {
   return (
     <>
       <div className={styles.rootContainer}>
-        <div className={styles.navigationBar}>
-          <NavigationBar />
-        </div>
         <div id="about">
           <AboutMe />
         </div>

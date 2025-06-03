@@ -2,12 +2,3 @@
   background: #0d1e31;
   position: relative;
 }
-
-.navigationBar {
-  display: flex;
-  position: fixed;
-  top: 20px;
-  width: 100vw;
-  justify-content: center;
-  z-index: 999;
-}

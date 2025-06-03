@@ -14,6 +14,13 @@
   width: max-content;
   cursor: pointer;
   margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .projectContainer {
+    margin-right: 0px;
+  }
 }
 
 .projectDetailContainer {
@@ -21,6 +28,12 @@
   padding: 20px 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .projectDetailContainer p {
+    max-width: 230px;
+  }
 }
 
 .imageContainer {
@@ -31,9 +44,22 @@
   border-top-right-radius: 10px;
 }
 
+@media screen and (max-width: 500px) {
+  .imageContainer {
+    width: 250px;
+    height: 155px;
+  }
+}
+
 .image {
   width: 400px;
   transition-duration: 500ms;
+}
+
+@media screen and (max-width: 500px) {
+  .image {
+    width: 250px;
+  }
 }
 
 .projectContainer:hover .image {
@@ -44,6 +70,12 @@
   color: white;
   font-weight: 700;
   font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .projectName {
+    font-size: 16px;
+  }
 }
 
 .skillListContainer {
@@ -69,6 +101,26 @@
   font-family: "Fredoka One", cursive;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 40px;
+    max-width: max-content;
+    justify-self: center;
+  }
+}
+
 .text {
   margin-top: 20px;
   color: white;
@@ -76,6 +128,20 @@
   max-width: 500px;
   word-spacing: 7px;
   font-weight: 300;
+}
+
+@media screen and (max-width: 1200px) {
+  .text {
+    font-size: 16px;
+    word-spacing: 7px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .text {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 .headerContainer {
@@ -89,6 +155,38 @@
   height: 600px;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+  .video {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .video {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .video {
+    display: none;
+  }
+}
+
 .headerTitleContainer {
   margin-right: 100px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 500px) {
+  .headerTitleContainer {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .headerTitleContainer {
+    margin: 0 auto;
+    max-width: 300px;
+  }
 }
